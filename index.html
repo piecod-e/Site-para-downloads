@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Área de Downloads</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Área de Downloads</h1>
+      <div class="controls">
+        <button id="toggleDark">Modo Escuro</button>
+      </div>
+      <div class="controls">
+        <input type="text" id="search" placeholder="Buscar pelo título" />
+        <button id="btnSearch">Pesquisar</button>
+      </div>
+      <div class="downloads" id="downloads">
+        <div class="download-item">
+          <img
+            src="https://via.placeholder.com/50"
+            alt="Imagem"
+            class="download-img"
+          />
+          <div class="download-info">
+            <span class="download-title">Arquivo Exemplo 1</span>
+          </div>
+          <a href="#" class="download-btn" download>Baixar</a>
+        </div>
+        <div class="download-item">
+          <img
+            src="https://via.placeholder.com/50"
+            alt="Imagem"
+            class="download-img"
+          />
+          <div class="download-info">
+            <span class="download-title">Outro Documento</span>
+          </div>
+          <a href="#" class="download-btn" download>Baixar</a>
+        </div>
+        <div class="download-item">
+          <img
+            src="https://via.placeholder.com/50"
+            alt="Imagem"
+            class="download-img"
+          />
+          <div class="download-info">
+            <span class="download-title">Planilha Financeira</span>
+          </div>
+          <a href="#" class="download-btn" download>Baixar</a>
+        </div>
+      </div>
+      <div class="redes">
+        <a
+          href="https://instagram.com/piettrocodding"
+          target="_blank"
+          class="social"
+          >Instagram</a
+        >
+        <a href="https://tiktok.com/@piettrocode" target="_blank" class="social"
+          >TikTok</a
+        >
+      </div>
+    </div>
+    <div id="overlay">Seu download está pronto!</div>
+    <div id="socialOverlay">Abrindo rede social...</div>
+    <script src="script.js"></script>
+  </body>
+</html>
