@@ -182,4 +182,14 @@ body.dark-mode .redes a {
     height: auto;
     border-radius: 4px;
   }
+
+  .download-title {
+    display: none;
+}
+  }
+
+  #download {
+    text-align: center;
+    width: 150px;
+    margin: auto;
 }
